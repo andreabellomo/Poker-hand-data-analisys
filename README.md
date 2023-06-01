@@ -1,7 +1,8 @@
-Analisi del Dataset del Poker Hand
-Questo readme fornisce informazioni sull'analisi del dataset del Poker Hand. Il dataset contiene informazioni sulle mani di poker e può essere utilizzato per l'apprendimento automatico e l'analisi statistica.
+# Analisi del Dataset del Poker Hand
 
-Descrizione del Dataset
+Il notebook fornisce informazioni sull'analisi del dataset del Poker Hand. Il dataset contiene informazioni sulle mani di poker e può essere utilizzato per l'apprendimento automatico e l'analisi statistica.
+
+## Descrizione del Dataset
 Il dataset del Poker Hand contiene un insieme di 1 milione di istanze di mani di poker generate casualmente. Ogni istanza rappresenta una mano di poker a cinque carte e contiene 10 attributi numerici (valori interi) che descrivono la mano.
 
 Gli attributi presenti nel dataset sono i seguenti:
@@ -19,14 +20,16 @@ C5 (Rank 1-13): rappresenta il valore o il rango della carta 5
 CLASS: rappresenta la classificazione della mano di poker (0-9)
 Le classi (CLASS) rappresentano le diverse combinazioni di mani di poker, come ad esempio una coppia, un tris, un full, un colore, ecc. La classe 0 rappresenta la combinazione di mano più debole, mentre la classe 9 rappresenta la combinazione di mano più forte.
 
-Utilizzo del Dataset
-Il dataset del Poker Hand può essere utilizzato per vari scopi, tra cui:
+## Utilizzo del Dataset
+Il dataset del Poker Hand è stato utilizzato per vari scopi, tra cui:
 
-Apprendimento automatico: Può essere utilizzato per addestrare modelli di intelligenza artificiale per classificare le mani di poker in base alla loro combinazione.
-Analisi statistica: È possibile eseguire analisi e calcoli statistici sul dataset per estrarre informazioni sui pattern di gioco, le probabilità di ottenere determinate combinazioni di carte, ecc.
-Esperimenti: Può essere utilizzato per eseguire esperimenti o simulazioni nel campo del poker o dell'apprendimento automatico.
-Formato del Dataset
+* analisi statistica dei dati
+* task di classificazione
+* task di clustering
+
+
+## Formato del Dataset
 Il dataset è fornito in formato CSV (Comma-Separated Values). Ogni riga rappresenta un'istanza separata e i valori sono separati da virgole. Il file CSV contiene un'intestazione che descrive gli attributi.
 
-Riferimenti
+## Riferimenti
 Il dataset del Poker Hand è stato creato da Robert Cattral e può essere scaricato dal repository UCI Machine Learning ([link](https://archive
