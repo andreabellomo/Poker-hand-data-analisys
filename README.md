@@ -1,4 +1,4 @@
-# Analisi del Dataset del Poker Hand
+# Analisi del Dataset Poker Hand
 
 Il notebook fornisce informazioni sull'analisi del dataset del Poker Hand. Il dataset contiene informazioni sulle mani di poker e può essere utilizzato per l'apprendimento automatico e l'analisi statistica.
 
